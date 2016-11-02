@@ -1,0 +1,163 @@
+/*
+	Author: Jamie W Bryant
+	Name: CSS Basic_login_page
+	Date: 30 OCT 2016
+*/
+
+html
+{
+	font-family: sans-serif;
+	font-size: 62.5%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body 
+{
+    font-size: 14px;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #26ffff;
+}
+
+h1, h2
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 
+{ 
+	display: flex;
+	content: "";
+	text-align: center;
+	height: 1px;
+	width: 180px;
+	background: #26ffff;
+	margin: auto;
+}
+
+h2 
+{
+    line-height: 40px;
+    color: #4d6600;
+}
+
+.heading-padding
+ {
+    padding-bottom: 80px;
+}
+
+section
+{
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.container 
+{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#login 
+{
+     background-color: #26ffff;
+}
+
+.entry 
+{
+	width: 60%;
+	padding: 10px;
+	border-radius: 8px;
+	margin: 0px auto;
+	background-color: rgba(100,65,0,.3);
+	box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1), 1px 2px 10px 0 rgba(0,0,0,0.5);
+}
+
+.entry h2 
+{
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+	color: #13161B;
+	font-weight: 500;
+	font-size: 1.3em;
+	letter-spacing: 0pt;
+	word-spacing: 0pt;
+}
+
+.entry form 
+{
+	font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #8D8E8F;
+    padding: 12px 12px;
+    width: 70%;
+    border: 1px solid #808080;
+    margin: 2% auto;
+    border-radius: 7px;
+    background: rgb(227,222,222);
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    font-family: 'Raleway', sans-serif;
+}
+
+.entry input[type="text"] 
+{
+	font-size: 15px;
+	outline: none;
+	font-weight: 600;
+	color: #8D8E8F;
+	padding: 2% 1% 2% 7%;
+	width: 80%;
+	border-top: 1px solid #090B0D;
+	border-right: 2px solid #424549;
+	border-bottom: 2px solid #424549;
+	border-left: 1px solid #090B0D;
+	margin: 10px 1em;
+	border-radius: 7px;
+	background: #13161B;
+	box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
+	font-family: 'Raleway', sans-serif;
+}
+
+.entry input[type="text"]:hover 
+{
+	box-shadow: 0 0 18px rgba(100,65,0,.8);
+}
+
+.form-spacer 
+{
+	padding: 30px 39px;
+}
+
+.submit input[type="submit"] 
+{
+	color: rgb(225,225,225);
+	cursor: pointer;
+	border: none;
+	font-weight: 900;
+	outline: none;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	margin: 0px 3%;
+	padding: 7px 0px;
+	width: 30%;
+	font-size: 18px;
+	transition: border-color 0.3s color 0.3s background-color 0.3s;
+	border-radius: 7px;
+	background-color: #797a7b;
+	box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
+}
+
+.submit input[type="submit"]:hover 
+{
+	color: #000;
+	background-color: #8D8E8F;
+	box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5);
+}
